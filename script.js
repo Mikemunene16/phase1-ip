@@ -20,7 +20,8 @@ function fetchWeather(city) {
 
                 console.log(name, icon, description, temp, humidity, speed);
                 document.querySelector('.city').textContent = `Weather in ${name}`
-                document.querySelector('.icon').src = `http://openweathermap.org/img/wn/${icon}@2x.png`
+                // http://openweathermap.org/img/wn/${icon}.png
+                document.querySelector('.icon').src = `http://openweathermap.org/img/wn/${icon}.png`
                 document.querySelector('.description').textContent = description;
                 document.querySelector('.temp').textContent = `${temp}°C`;
                 document.querySelector('.humidity').textContent = `Humidity: ${humidity}%`;

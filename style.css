@@ -12,6 +12,7 @@ body {
 
 h1.temp {
   margin: 0;
+  margin-bottom: 0.4em;
 }
 
 .card {
@@ -57,4 +58,14 @@ input.search-bar {
   font-family: inherit;
   font-size: 105%;
   width: calc(100% - 100px);
+}
+
+.description {
+  text-transform: capitalize;
+  margin-left: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
 }
