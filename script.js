@@ -25,6 +25,7 @@ let weather = {
         document.querySelector('.temp').textContent = `${temp}°C`;
         document.querySelector('.humidity').textContent = `Humidity: ${humidity}%`;
         document.querySelector('.wind').textContent = `Wind Speed: ${speed}km/h`;
+        document.querySelector('.weather').classList.remove('loading');
 
 
     },
@@ -34,13 +35,21 @@ let weather = {
 
 };
 
+// event to search for weather when search button is clicked
 document.querySelector(".search button").addEventListener("click", function () {
     weather.search();
 
 });
 
+// Event that returns the weather after user presses enter
+document.querySelector(".search-bar").addEventListener("keyup", function (e) {
+    if (e.key == "Enter") {
+        weather.search();
+    }
+})
 
 
 
 
-// fetchWeather();
+
+weather.fetchWeather("Nairobi");
