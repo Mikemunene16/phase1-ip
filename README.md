@@ -14,6 +14,7 @@ Weather app uses a public api to access current weather conditions for any locat
 - - {git clone https://github.com/Mikemunene16/phase1-ip.git}
 - Open terminal command line then navigate to the folder of the application.
 - Open `index.html` on your browser.
+- Search a city in the search bar and it'll return the weather for that area.
 
 ## Live link
 
