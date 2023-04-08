@@ -24,6 +24,10 @@ Weather app uses a public api to access current weather conditions for any locat
 
 {I used HTML, CSS and Javascript to create this project.}
 
+## Support and contact details
+
+{You can reach me at my email mikemunene7@gmail.com.}
+
 ### License
 
 This is under the [MIT](LICENSE) license
