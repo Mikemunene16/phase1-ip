@@ -3,6 +3,7 @@
 let weather = {
     apiKey: "ae62f0d08f84bb40caa4e62081318269",
 
+    // Function that fetch data from the server
     fetchWeather: function (city) {
         // 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&appid=' + apiKey
         // https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}
@@ -11,6 +12,8 @@ let weather = {
             .then((resp) => resp.json())
             .then((data) => this.displayWeather(data));
     },
+
+    // Function that displays data
     displayWeather: function (data) {
         const { name } = data;
         const { icon, description } = data.weather[0];
@@ -29,6 +32,7 @@ let weather = {
         document.body.style.backgroundImage = "url('https://source.unsplash.com/1600x700/?" + name + "')"
 
     },
+    // Function that gets the value input in the search bar
     search: function () {
         this.fetchWeather(document.querySelector('.search-bar').value);
     },
