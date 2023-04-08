@@ -4,6 +4,6 @@
 
 #### Author: **{Mike Munene}**
 
-<!-- ## Project Description
+## Project Description
 
-Access current weather data for any location including over 200,000 cities -->
+Weather app accesses current weather data for any location including over 200,000 cities.
