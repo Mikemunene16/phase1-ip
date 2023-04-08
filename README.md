@@ -17,6 +17,7 @@ Weather app uses a public api to access current weather conditions for any locat
 - Search a city in the search bar and it'll return the weather for that area.
 
 ## Live link
+https://mikemunene16.github.io/phase1-ip/
 
 ## Known Bugs
 
