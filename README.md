@@ -14,3 +14,11 @@ Weather app accesses current weather data for any location including over 200,00
 - - {git clone https://github.com/Mikemunene16/phase1-ip.git}
 - Open terminal command line then navigate to the folder of the application.
 - Open `index.html` on your browser.
+
+## Live link
+
+## Known Bugs
+
+## Technologies Used
+
+{I used HTML, CSS and Javascript to create this project.}
