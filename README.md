@@ -6,7 +6,7 @@
 
 ## Project Description
 
-Weather app accesses current weather data for any location including over 200,000 cities.
+Weather app uses a public api to access current weather conditions for any location including over 200,000 cities.
 
 ## Setup/Installation Requirements
 
